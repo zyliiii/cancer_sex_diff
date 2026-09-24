@@ -38,7 +38,7 @@ source("02_PAF_ARD_AP.R")
 source("03_Bootstrap_ARD_CI.R")
 ```
 
-Run the scripts in this order. The bootstrap script reads the point estimates written by `02_PAF_ARD_AP.R` and does not recalculate them.
+Run the scripts in this order. `02_PAF_ARD_AP.R` reads the ASIR results written by `01_IRR_ASIR.R`, and `03_Bootstrap_ARD_CI.R` reads the point estimates written by `02_PAF_ARD_AP.R`.
 
 The scripts create:
 
